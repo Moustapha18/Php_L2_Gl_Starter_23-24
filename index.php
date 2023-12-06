@@ -1,6 +1,4 @@
 <?php
-    $index= true;
-
     include_once './header.php'
 ?>
 
