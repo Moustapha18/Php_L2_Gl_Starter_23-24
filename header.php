@@ -174,13 +174,13 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
+            <a class="nav-link <?php echo !empty($index) ?"active" :"" ?>"  href="index.php">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="docteurs.php">Docteurs</a>
+            <a class="nav-link"  <?php echo !empty($docteur) ?"active" :"" ?>href="docteurs.php">Docteurs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="patients.php">Patients</a>
+            <a class="nav-link" <?php echo !empty($services) ?"active" :"" ?> href="services.php">services</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
